@@ -57,11 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\test.cs" />
+    <Compile Include="Assets\Scripts\NormalsReplacementShader.cs" />
+    <Compile Include="Assets\Scripts\CameraDepthTextureMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\CustomTessellation.cginc" />
+    <None Include="Assets\Shaders\HiddenNormalsTexture.shader" />
     <None Include="Assets\Shaders\Grass.shader" />
+    <None Include="Assets\Shaders\ToonLit.shader" />
     <None Include="Assets\Shaders\Frame_Shader.shader" />
+    <None Include="Assets\Shaders\ToonWater.shader" />
+    <None Include="Assets\Shaders\UnlitShadowCaster.shader" />
     <None Include="Assets\Shaders\TessellationExample.shader" />
   </ItemGroup>
   <ItemGroup>
